@@ -68,6 +68,7 @@ basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+From the graphs we can see that the white is more in favor than the others. Black and others are very close but the white stands out the most.
 
 
 ### Numerical Descriptive Results
@@ -85,6 +86,7 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
+Both tables show that white is in favor more than the rest. Black has a higher amount in oppose on both tables. Other is in favor and opposed in the tables. 
 
 ## Inferential Results
 
