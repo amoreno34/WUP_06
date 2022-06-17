@@ -104,11 +104,17 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 
+P-value for chi-test is 0.00000000000001027. Null hypothesis is rejected due this being lower than 0.05.
+
+
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
  
+All the p-values in the fisherXY test are below 0.05. Null hypothesis is rejected.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+Is attitude toward capitol punishment related to race? After analyzing the results from the data, the null hypothsis is rejected in favor for the alternative. Race does have to do with capitol punishment. White was more in favor than the others. Indicating that they are not punished as much as the others. Black and other are more opposed than favored. 
